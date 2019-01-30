@@ -1,0 +1,127 @@
+#title {
+    font-family: Raleway, sans-serif; 
+    color: #ffffff;
+    text-align: center; 
+    position: relative;
+    font-size: 4em;
+    
+}
+#hero-image {
+    background-image: url(Hero_image.jpg);
+    background-color: hsl( 0, 50%, 20%);   
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 600px;
+    min-height: 600px;
+    width: auto;
+    padding-top: 2em; 
+    transition-timing-function: ease; 
+    transition-duration: 1.5s;
+    z-index: 2; 
+     
+}
+#hero-image:hover{
+    transform: scale(1.1);
+}
+html, body, header {
+    width: 100%;
+}
+.desc {
+    font-family: Raleway, sans-serif;
+    color: #ffffff;
+    text-align: justify;
+    padding: 20px 15% 10px 15%; 
+    font-size: 16pt; 
+}
+.subheader {
+    color: #ffffff;
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    font-size: 3em;
+}
+#main {
+    background-color: rgb(22, 16, 56);
+    width: 100%;
+    
+}
+header, footer, section, body, main, article, html, h1, h2, h3, h4, h5, h6, p {
+    margin: 0; 
+    padding: 0; 
+}
+#lifelist {
+    padding-bottom: 50px;
+    
+}
+ul {
+    color: #ffffff; 
+    text-align: left;
+    padding-left: 20%; 
+    font-family: Raleway, sans-serif; 
+    font-size: 16pt;
+    padding-right: 20%;
+}
+#companylist {
+    padding-bottom: 0px;
+    background-color: #092136;
+}
+h3 {
+    color: #ffffff;
+    font-family: Raleway, sans-serif;
+    font-size: 14pt;
+    text-align: right;
+    padding: 20px 5% 30px 0px;
+}
+#quote {
+    padding: 40px 20px 40px 20px;
+}
+#footer {
+    color: #ffffff;
+    font-size: 16px;
+    padding: 40px 60px 40px -30px;
+    text-align: center;
+}
+#footer2 {
+    color: #ffffff;
+    font-size: 16pt; 
+    text-align: left;
+    position: relative;
+    padding-left: 48%;    
+}
+a {
+    color: aquamarine;
+}
+#lastline {
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.lastline {
+    color: #ffffff;
+}
+#image {
+    padding: 30px 0 0px 0; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+#img-caption {
+    text-align: center;
+    font-size: 16pt;
+    padding: 5px 0 20px 0;
+    font-family: Raleway, sans-serif;
+    color: #ffffff;
+}
+#img-div {
+    background-color: #036464;
+}
+#tribute-info {
+    font-size: 20pt; 
+    text-align: center;
+}
